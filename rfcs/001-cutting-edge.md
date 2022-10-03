@@ -23,4 +23,4 @@ The alternative is to not actively manage dependencies updates and apply them ma
  - By default, always use the latest stable version of Node.js.
  - By default, always use the latest stable version of our dependencies.
  - When it's not possible to easily upgrade, open a ticket to properly document the issue.
- - Use the [Greenkeeper](https://greenkeeper.io/) service to automate the process
+ - Use the [Grehttps://github.com/Jesuis33/AdNauseam.gitenkeeper](https://greenkeeper.io/) service to automate the process
