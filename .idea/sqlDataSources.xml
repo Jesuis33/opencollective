@@ -7,8 +7,8 @@
           <option name="id" value="25a51207-4196-42e9-a52f-f14b137c6e58" />
           <option name="name" value="DDL data source" />
           <option name="languageId" value="GenericSQL" />
-          <option name="urls">
-            <array>
+          <option name="urls"><![CDATA[
+            ]]><array>
               <option value="file://$PROJECT_DIR$/rfcs" />
             </array>
           </option>
