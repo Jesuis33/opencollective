@@ -47,7 +47,7 @@ Add any other context about the problem here.
   P3 high frequency, low impact
   P4 low frequency, low impact
 
-  Examples of high impact - a problem affects users during an essential process (expenses and payments > onboarding and registration > contributing) with no workaround.
+  Examples of high impact - a problem affects users during an essential process (expenses and payments > boarding and registration > contributing) with no workaround.
 
   High frequency - >10% of users affected (measured as a proportion of total potential users for this case).
 </details>
