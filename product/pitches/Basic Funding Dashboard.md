@@ -6,13 +6,13 @@ This proposal emerged from research into open source projects hosted by OSC abou
 
 One of the challenges that corporate open-source funders encounter is how to relate to their "investment portfolio" - the entirety of their funding to many open-source projects. There are a few notable aspects to this challenge:
 1. Current scale - within current funding levels, organizational funding reaches typically tens of open-source projects (in some rare cases this may cross over into the low hundreds).
-2. Future scale - the number of dependencies within organizations can be one or two orders of magnitude larger - thousands of direct dependencies. That number can grow by another order of magnitude (or more) if it includes transitive dependencies (dependencies on dependenncies). 
+2. Future scale - the number of dependencies within organizations can be one or two orders of magnitude larger - thousands of direct dependencies. That number can grow by another order of magnitude (or more) if it includes transitive dependencies (dependencies on dependencies). 
 3. Coverage - the open-source collectives that are hosted on the platform and through OSC are a subset of "the world of open-source" and since it is difficult to measure "the world of open source" as a whole it is difficult to assess what coverage we do have. 
-4. Other Funding Channels - OpenCollective is one of numerous funding channels (eg. GitHub Sponors & Tidelift) and typically funders utilize numerous channels.
+4. Other Funding Channels - OpenCollective is one of numerous funding channels (e.g. GitHub Sponsors & Tide-lift) and typically funders utilize numerous channels.
 
-All this is to say that from a funders perspective, any funding overview tools we provide on the Open Collective platform are going to be, by definition, incomplete (at least initially). 
+All this is to say that from a funder's perspective, any funding overview tools we provide on the Open Collective platform are going to be, by definition, incomplete (at least initially). 
 
-However, currently NO ONE is addressing this need (aside from spreadhsheets or in some cases internally developed tools) and funders I have spoken to have spoken about this need. 
+However, currently NO ONE is addressing this need (aside from spreadsheets or in some cases internally developed tools) and funders I have spoken to have spoken about this need. 
 
 ## Appetite
 
@@ -21,7 +21,7 @@ This pitch is offered as a large (4 week) project.
 
 ## Proposal
 
-This proposal is an MVP created as a low cost (and correspondingly, at least initially, moderate impact) tool **based primarily on data that is already available on the platform**. It doees however serve as a gravitational center that will expand as we advance on the OSC product roadmap. Ultimately it is designed to become a tool where funders can formulate, execute and monitor the impact of their funding strategy.  
+This proposal is an MVP created as a low cost (and correspondingly, at least initially, moderate impact) tool **based primarily on data that is already available on the platform**. It does however serve as a gravitational center that will expand as we advance on the OSC product roadmap. Ultimately it is designed to become a tool where funders can formulate, execute and monitor the impact of their funding strategy.  
 
 ### Basic Dashboard
 
@@ -47,7 +47,7 @@ The dashboard provides a funder with information aggregated per collective (~ope
 5. The total amount of money that the collective has raised during the last 30 days with a trend indicator of how it has changed relative to the yearly (last 365 days) average.
 6. The total amount of money that the collective has spent during the last 30 days with a trend indicator of how that changed relative to the yearly (last 365 days) average.
 7. A yearly goal indicator:
-	1. If the collective has a yearly goal, what percentage of it has beem met.
+	1. If the collective has a yearly goal, what percentage of it has bem met.
 	2. If the collective does not have a yearly goal nothing is displayed.
 
 An aggregate ot total and current recurring contributions is also shown.
@@ -79,11 +79,11 @@ When grouping is activated intermediate summaries are also presented.
 A collective can be clicked to show more detailed information.
 
 The first view that is offered is a detailed list of funding contributions to the collective.
-![funders_dashboard_modal_myfundinghistory_02a](https://user-images.githubusercontent.com/8337819/185388245-7bde36ae-510a-4c0e-9441-80dbb32fe3af.jpg)
+![funders_dashboard_modal_maxloghistory_02a](https://user-images.githubusercontent.com/8337819/185388245-7bde36ae-510a-4c0e-9441-80dbb32fe3af.jpg)
 
 
 The second view shows all the historical funding the collective has received with an added emphasis on the funder's contribution relative to all other contributions. 
-![funders_dashboard_modal_allfundinghistory_02a](https://user-images.githubusercontent.com/8337819/185388277-98723362-ba6b-4721-a86f-f42326a6f86e.jpg)
+![funders_dashboard_modal_maxloghistory_02a](https://user-images.githubusercontent.com/8337819/185388277-98723362-ba6b-4721-a86f-f42326a6f86e.jpg)
 
 This modal view can gradually be populated with more information/context to support the effort to formulate and perceive a funding strategy.
 
@@ -107,8 +107,8 @@ The following are list of potential capabilities that may be incorporated into t
 Within the context of OSC (and depending on how the basic dashboard will be received) we can currently identify some strategic future potentials: 
 1. Impact Reporting - as we work to enhance and expand the information that open-source projects make available to funders, this tool may become a foundation for collecting and integrating impact-related information and using it to generate impact reports (that allies of open-source in the corporate world can utilize in their funding efforts within their organizations).
 2. Manually Adding Off-Platform funding - enabling funders to use this dashboard to manage open-source contributions that are executed off-platform by manually adding contributions - enabling the funders to use this interface for a more whole view of their "investment portfolios" in open-source (this may partially tend to the "coverage" challenge mentioned in the context section of this pitch).
-3. Full Dependency Set - there is a potential path that this tool expands to the point where open-source funders can uploads their full dependency sets. This is a major shift from tens of contributions to potentially thousands and will come with additional strategizing tools.
-4. Open-Source Dependency Revenue Sharing - if OC implements tools for revenue sharing between open source projects (to dependencies) this can be indicated on this dashboard & the dashboard itself may become useful for the open source collectives themselves (to monitor, as funders can, their own conributions to open-source).  
+3. Full Dependency Set - there is a potential path that this tool expands to the point where open-source funders can upload their full dependency sets. This is a major shift from tens of contributions to potentially thousands and will come with additional strategics tools.
+4. Open-Source Dependency Revenue Sharing - if OC implements tools for revenue sharing between open source projects (to dependencies) this can be indicated on this dashboard & the dashboard itself may become useful for the open source collectives themselves (to monitor, as funders can, their own contributions to open-source).  
 5. Summoning Open-Source projects - there is a potential for this to become a mechanism for inviting onto the Open Collective platform open-source project that are not currently on the platform. If funders elect to use this tool to manage off-platform funding they may be motivated to ask off-platform open-source projects to come to the platform to receive and transparently utilize funding ... and we may be motivated to help them do so.
 6. Work attribution - We are contemplating a mechanism for submitting work attributions (code and non-code) that goes into open-source projects. While this is primarily targeted at the open-source projects themselves it can impact funders in two ways. First, it may reveal information about unfunded work that goes into open source projects that should be funded. Second, it enables funders to also express their own non-funding contributions to open-source (dedicated employees, events, computing resources, etc.) ... and this too can be integrated into the dashboard and overall funding strategy.
 7. Employee Managed Funds - we are contemplating a capability for funders to allocate funds that employees (or small teams) can distribute independently to open source projects they value. Those contributions can also be integrated into this dashboard. 
