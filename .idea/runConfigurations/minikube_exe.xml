@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="minikube.exe" type="CLion_CoreDump" version="1" coreDump="$PROJECT_DIR$/../minikube/minikube.exe" symbolFile="$PROJECT_DIR$/../minikube/minikube.exe" sysroot="$PROJECT_DIR$/../OEM/AcerLogs">
+    <debugger kind="GDB">C:\Intel\ProtocolMonitor-20220902T173805.json</debugger>
+    <method v="2" />
+  </configuration>
+</component>
