@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GrepConsole">
+    <option name="pinnedGrepConsolesState">
+      <PinnedGrepConsolesState>
+        <option name="map">
+          <map>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="http_requests_run_configuration.svg)" />
+                  <option name="name" value="post-requests | Send POST request with json body" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins>
+                  <option name="pins">
+                    <list>
+                      <Pin>
+                        <option name="consoleUUID" value="e53b73ed-bda6-40fb-aff6-f40b6a3aa2c8" />
+                        <option name="contentType" value="ConsoleContent" />
+                        <option name="grepCompositeModel">
+                          <GrepCompositeModel>
+                            <option name="models">
+                              <list>
+                                <GrepModel>
+                                  <option name="expression" value="" />
+                                </GrepModel>
+                              </list>
+                            </option>
+                          </GrepCompositeModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="eef10b94-640b-4c8f-9be8-6defabd32da8" />
+                        <option name="contentType" value="ConsoleContent" />
+                        <option name="grepCompositeModel">
+                          <GrepCompositeModel>
+                            <option name="models">
+                              <list>
+                                <GrepModel>
+                                  <option name="expression" value="" />
+                                </GrepModel>
+                              </list>
+                            </option>
+                          </GrepCompositeModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="0e3854b9-f000-45ff-9ec0-5d9830b990f2" />
+                        <option name="contentType" value="ConsoleContent" />
+                        <option name="grepCompositeModel">
+                          <GrepCompositeModel>
+                            <option name="models">
+                              <list>
+                                <GrepModel>
+                                  <option name="caseSensitive" value="true" />
+                                  <option name="expression" value="    &quot;Content-Length&quot;: &quot;37&quot;,&#10;    &quot;Content-Type&quot;: &quot;application/json&quot;,&#10;    &quot;Host&quot;: &quot;httpbin.org&quot;,&#10;    &quot;User-Agent&quot;: &quot;Apache-HttpClient/4.5.13 (Java/17.0.4)&quot;,&#10;    &quot;X-Amzn-Tracc" />
+                                  <option name="regex" value="true" />
+                                  <option name="wholeWords" value="true" />
+                                </GrepModel>
+                              </list>
+                            </option>
+                          </GrepCompositeModel>
+                        </option>
+                      </Pin>
+                    </list>
+                  </option>
+                </Pins>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </PinnedGrepConsolesState>
+    </option>
+    <option name="tailHistory">
+      <TailHistory>
+        <option name="items">
+          <set>
+            <TailItem>
+              <option name="encoding" value="UTF-8" />
+              <option name="path" value="D:/" />
+            </TailItem>
+          </set>
+        </option>
+      </TailHistory>
+    </option>
+  </component>
+</project>

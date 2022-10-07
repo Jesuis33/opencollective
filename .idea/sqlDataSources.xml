@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="e4851943-3943-4574-8842-f0b6964d81eb" name="DDL data source Mapping">
+      <data-sources db="c2c527c7-036d-40c7-a937-5b506e0a7060" ddl="2bf7958d-c4b5-4f98-9604-69fa27c6e90f" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
   <component name="SqlDataSourceStorage">
     <option name="dataSources">
       <list>
@@ -7,10 +17,21 @@
           <option name="id" value="25a51207-4196-42e9-a52f-f14b137c6e58" />
           <option name="name" value="DDL data source" />
           <option name="languageId"
-                  value="GenericSQL"/>
-          <option name="urls"><![CDATA[
+                  value="GenericSQL"/><![CDATA[
+          ]]><option name="urls"><![CDATA[
             ]]><array>
               <option value="file://$PROJECT_DIR$/rfcs" />
+            </array>
+          </option>
+        </State>
+        <State>
+          <option name="id" value="2bf7958d-c4b5-4f98-9604-69fa27c6e90f" />
+          <option name="name" value="DDL data source" />
+          <option name="languageId" value="Exasol" />
+          <option name="inlineFilter" value="file[opencollective]:*" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/venv" />
             </array>
           </option>
         </State>

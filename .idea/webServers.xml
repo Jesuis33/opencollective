@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2eba08a0-b412-4248-b73e-8268a12fa9c5" name="sertt" url="http://localhost:8080">
+        <fileTransfer accessType="SFTP" host="CyberCats" port="22" sshConfigId="3b880193-f030-4de8-9262-21b5cc49ba5d" sshConfig="jesuis33@CyberCats:22:3333 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
